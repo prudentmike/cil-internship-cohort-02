@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>My To do list</title>
+<link rel="stylesheet" href="todos.css">
+</head>
+<body>
+
+<div id="myDIV" class="header">
+  <h2 style="margin:5px"><b>To Do List</b></h2>
+  <div id = 'errorMsg'></div>
+ <b><input type="text" id="newInput" placeholder= "What's on your mind?..."></b> 
+  <!--Adding an event-->
+  <span onclick="newElement()" id="addBtn"><b>Add to List</b></span>
+</div>
+
+<ul id="myUList">
+  <li>Go to Church</li>
+  <li class="checked">Learn Javasript</li>
+  <li>Research a topic</li>
+  <li>See a movie</li>
+  <li>Play Football</li>
+  <li>Visit a friend</li>
+</ul>
+<script src="todos.js"></script>
+</body>
+</html>

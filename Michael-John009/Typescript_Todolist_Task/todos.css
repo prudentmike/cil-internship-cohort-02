@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+}
+.container{
+    width: 100vw;
+    min-height: 100vh;
+    background-color: rgb(63, 63, 87);
+    text-align: center;
+  }
+  h1{
+    color: white;
+    padding: 30px;
+    font-size: 24px;
+    font-family: 'Gugi', cursive;
+  }
+  input {
+    width: 300px;
+    border: none;
+    height: 30px;
+    outline: none;
+    display: inline-block;
+    border-radius: 300px;
+  }
+  button {
+    border: none;
+    border-radius: 300px;
+    outline: none;
+    padding: 10px;
+    margin-left: 10px;
+    font-family: 'Gugi', cursive;
+  }
+  button:hover{
+    cursor: pointer;
+    background:rgb(182, 230, 245)
+  }
+  .list{
+    color: #ffffff;
+    padding: 30px 0;
+  }
+  li{
+    margin-bottom: 10px;
+    list-style: none;
+    font-size: 16px;
+  }
